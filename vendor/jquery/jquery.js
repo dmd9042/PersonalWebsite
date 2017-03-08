@@ -171,7 +171,8 @@ jQuery.fn = jQuery.prototype = {
 	sort: deletedIds.sort,
 	splice: deletedIds.splice
 };
-
+    
+ 
 jQuery.extend = jQuery.fn.extend = function() {
 	var src, copyIsArray, copy, name, options, clone,
 		target = arguments[ 0 ] || {},
